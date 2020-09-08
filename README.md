@@ -3,8 +3,7 @@
 <img src="https://www.electronjs.org/images/electron-logo.svg" width=600 height=300> 
 
 
-# Screen Record
-
+# Screen Record app with Electronjs 
 > No need to depend on other screen recorder services, create your own!
 
 
@@ -18,13 +17,15 @@
 
 
 ## Instructions to run
-
 ```
-$ git clone https://github.com/N0v0cain3/<Project>
-$ cd <Project>
-$ node app.js
-  or
-$ npm run dev
+$ git clone https://github.com/N0v0cain3/ScreenRecorder.git
+$ cd ScreenRecorder/my-app
+$ npm install
+$ npm start
+```
+# To use electron-forge
+```
+$  npx create-electron-app my-app
 ```
 
 ## Contributors
